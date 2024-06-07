@@ -123,3 +123,16 @@ a {
   background-color: black;
   color: #fff;
 }
+
+.slideUp {
+  animation: slideUp 1s ease-out;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
