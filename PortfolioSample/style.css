@@ -1,0 +1,139 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: monospace;
+  margin-left: 5%;
+  
+}
+
+.pic img{
+  margin-left: 60%;
+  margin-top: 30px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+.pic {
+  margin-top: 10%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.text {
+  margin-top: 10%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 320px; /* Add some space between the image and the text */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  font-size: 14px;
+  height: 10vh;
+  background: #d8d8d8;
+}
+
+.navbar{
+  width: 100%;
+  margin: auto;
+  padding: 0.5rem 1.5rem;
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1)
+}
+
+
+.nav-link {
+  list-style: none;
+  padding: 0.5rem 2rem 0.5rem 1rem; /* Adjusted padding */
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex; /* Ensures the arrow is included with the "Shop" word */
+  align-items: center; /* Vertically center the text and arrow */
+}
+
+.drop-down li {
+  list-style: none;
+  padding: 0.5rem 1rem; /* Adjusted padding */
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.drop-down li a {
+  display: inline-block; /* Ensure the arrow is inline with the "Shop" word */
+  margin-left: 5px; /* Adjusted margin between the "Shop" word and the arrow */
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the navigation links horizontally */
+}
+
+/* Increase the space between words */
+.nav-link a {
+  margin-right: 10px;
+}
+
+.nav-links {
+display: flex;
+align-items: center; /* Align items vertically */
+justify-content: center; /* Evenly distribute space between items */
+}
+
+.nav-link, .drop-down li{
+list-style: none;
+height: 100%;
+padding: 0.5rem 1rem;
+font-weight: 600;
+cursor:pointer;
+}
+
+.nav-link {
+  list-style: none;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 24px; /* Adjust this value to increase or decrease the font size */
+}
+
+.drop-down li {
+  list-style: none;
+  padding: 0.5rem 1rem; /* Adjusted padding */
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+a{
+text-decoration: none;
+color: currentColor;
+}
+
+.drop-down{
+position: absolute;
+padding: 0.5rem 0;
+background: antiquewhite;
+color: black;
+box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+border-radius: 0.5rem;
+font-size: 12px;
+display: none;
+}
+
+
+.nav-link:hover {
+background-color: black;
+color: #fff;
+}
+
+.nav-link:has(img):hover {
+background-color: transparent;
+color: initial;
+cursor:initial;
+}
